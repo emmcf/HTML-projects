@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Verdana';
+    color: darkgrey;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    font-family: 'Consolas';
+}
+
+label {
+    text-align: right;
+    font-weight: medium;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.contenido {
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+
+    border: 1px solid, blue;
+    margin: 20px;
+    padding: 25px;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    margin: 14px;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.pie_pagina {
+    text-align: right;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+.cuerpo_texto {
+    background-color: lightcyan;
+}

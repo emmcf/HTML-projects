@@ -1,0 +1,66 @@
+<!-- 
+    author: I.S.C. Emmanuel Cisneros Flores
+    date: February 7th 2025
+    program: Aplicación de las reglas básicas de HTML y CSS vistas en clase.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub y Primer Repositorio con HTML</title>
+    <link rel="stylesheet" type="text/css" href="indexStyle.css"> 
+</head>
+<body class = "cuerpo_texto">
+    <!-- Encabezado <h1> con mis iniciales -->
+    <div class = "encabezado">
+        <h1>ECF</h1>
+    </div>
+    
+    <!-- Párrafo <p> con la explicación de que es, para que sirve y comandos principales de github. -->
+    <div class = "contenido">
+        <p>GitHub es una plataforma basada en la nube en la que es posible almacenar, compartir y trabajar en conjunto con otros usuarios para escribir código.<br><br>
+            El propósito de almacenar código en un "repositorio" en GitHub permite 4 principales funciones:
+            
+            Presentar o compartir el trabajo con otros usuarios.
+            Monitorear y administrar los cambios en el código del repositorio a lo largo del tiempo.
+            Permitir que otros usuarios visualicen el código y realicen sugerencias para mejorarlo.
+            Trabajar de manera colaborativa en un proyecto compartido, sin preocuparse de que los cambios afecten al trabajo de los colaboradores antes de su finalización para integrarlos.<br><br>
+            
+            Una de las características fundamentales de GitHub es el <b>trabajo colaborativo</b>, esto es posible gracias al software de código abierto de Git, en el cual está basado GitHub.<br><br>
+
+            Algunos de los principales comandos que se utilizan en Git son los siguientes:<br><br>
+
+            - <a>git init &lt;nombre_proyecto&gt;</a>: Inicia un repositorio local con el nombre especificado.<br>
+            - <a>git init</a>: Inicia Git en la carpeta donde se encuentra el proyecto.<br>
+            - <a>git clone &lt;url&gt;</a>: Clona el repositorio que se encuentra en la url especificada.<br>
+            - <a>git config --global user.name "Nombre Usuario"</a>: Establece el nombre de usuario el cual se utilizará en todos los repositorios. Todos los commits mostrarán dicho nombre de usuario como el autor.<br>
+            - <a>git config --global user.email "Email Usuario"</a>: Establece el correo electrónico el cual estará asociado con todos los commits.<br>
+            - <a>git status</a>: Enlista un estado actual del repositorio con lista de archivos modificados o agregados.<br>
+            - <a>git add &lt;nombre de archivo&gt;</a>: Añade el archivo especificado para ser confirmado en el próximo commit.<br>
+            - <a>git add .</a>: Añade todos los archivos al staging área.<br>
+            - <a>git add --all</a>: Añade todos los archivos para el commit omitiendo los nuevos.<br>
+            - <a>git add *.txt</a>: Añade todos los archivos con la extensión especificada.<br>
+            - <a>git add docs/*.txt</a>: Añade todos los archivos dentro de un directorio dentro de un directorio y de una extensión específica.<br>
+            - <a>git add docs/</a>: Añade todos los archivos dentro de un directorio.<br>
+            - <a>git commit -m "Comentario de commit"</a>: Carga al encabezado los cambios realizados.<br>
+            - <a>git commit -a</a>: En caso de haber conflictos, los muestra.<br>
+            - <a>git reset HEAD &lt;archivo&gt;</a>: Saca un archivo específico del commmit.<br>
+            - <a>git reset --soft HEAD^</a>: Devuelve el último commit que se hizo y pone los cambios en staging.<br>
+            - <a>git reset --hard HEAD^</a>: Devuelve el último commit y todos los cambios.<br>
+            - <a>git rm &lt;archivo&gt;</a>: Borra un archivo específico del repositorio.<br>
+            - <a>git log</a>: Muestra los logs de los commits.<br>
+            - <a>git log --oneline --stat</a>: Muestra los cambios en los commits.<br>
+            - <a>git remote add origin &lt;url&gt;</a>: Agrega repositorio remoto.<br>
+            - <a>git branch &lt;nameBranch&gt;</a>: Crea un branch.<br>
+            - <a>git branch</a>: Lista los branches.<br>
+        </p>
+    </div>
+</body>
+
+<footer class = "pie_pagina">
+    <label>Desarrollo de aplicaciones y servicios web.</label> <br>
+    <label>By: Emmanuel Cisneros Flores</label> <br>
+    <label>Ingeniería en Sistemas Computacionales.</label>
+</footer>
+</html>
