@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "4186cb9b-6d4a-405b-8524-ce0cce57b6e3",
+    "name": "Pera",
+    "imageUrl": "url",
+    "description": "Las mejores peras de México, grandes y jugosas.",
+    "unit": "pieza",
+    "stock": 35,
+    "price": 4.6,
+    "category": "Fruta"
+  },
+  {
+    "uuid": "21a24091-54f0-4e8f-afaa-a3746634f8c1",
+    "name": "Zanahoria",
+    "imageUrl": "url",
+    "description": "Las mejores zanahorias de México, mejoran la vista y son energeticas.",
+    "unit": "pieza",
+    "stock": 34,
+    "price": 5.3,
+    "category": "Verdura"
+  },
+  {
+    "uuid": "be70e764-c017-48d2-bd24-feba4b15d72e",
+    "name": "Guayaba",
+    "imageUrl": "url",
+    "description": "Las mejores guayabas de México, super deliciosas.",
+    "unit": "pieza",
+    "stock": 20,
+    "price": 3.2,
+    "category": "Fruta"
+  }
+]
